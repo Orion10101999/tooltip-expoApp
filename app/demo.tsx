@@ -16,7 +16,7 @@ const Demo = () => {
 
     return (
         <View style={styles.container}>
-            <Tooltip title='click display text ' enterTouchDelay={100} leaveTouchDelay={200}>
+            <Tooltip title='display text ' enterTouchDelay={100} leaveTouchDelay={200}>
                 <TouchableOpacity onPress={showTooltip} style={styles.button}>
                     <Text style={styles.buttonText}>Display Text</Text>
                 </TouchableOpacity>
